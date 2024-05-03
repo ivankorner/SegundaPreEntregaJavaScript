@@ -1,6 +1,3 @@
-html, body{
- 
-}
 /* Google Fonts */
 .major-mono display-regular {
   font-family: "Major Mono Display", monospace;
@@ -183,6 +180,24 @@ footer {
   height: 500px;  
   border-radius: 10px;
   color: white;
+}
+
+/*Carrito de Compras*/
+.finalizarCompra{
+  background-color: #e8e8e8;
+  border-radius: 8px;
+  padding: 20px;
+  
+}
+.finalizarCompra form{
+  padding: 20px;
+}
+.finalizarCompra form input{
+  border: solid 2px;
+  border-radius: 5px;
+}
+.precioFinal{
+  font-weight:bold;
 }
 
 /*Media queries Mobile*/
